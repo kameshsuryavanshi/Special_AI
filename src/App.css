@@ -4,9 +4,9 @@
 
 body {
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1%;
   text-align: center;
 }
 
@@ -16,6 +16,21 @@ body {
   will-change: filter;
   transition: filter 300ms;
 }
+
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 4em;
+    padding: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    height: 3em;
+    padding: 0.8em;
+  }
+}
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
@@ -42,7 +57,31 @@ body {
   padding: 2em;
 }
 
+@media screen and (max-width: 768px) {
+  .card {
+    padding: 1.5em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    padding: 1em;
+  }
+}
+
 .read-the-docs {
   color: #888;
+}
+
+@media screen and (max-width: 768px) {
+  #root {
+    padding: 2%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #root {
+    padding: 3%;
+  }
 }
 }
