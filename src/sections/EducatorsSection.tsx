@@ -6,19 +6,19 @@ const tools = [
   {
     title: "IEP Workflow Progress",
     desc: "Streamline the entire IEP process from assessment to reporting.",
-    icon: <MdOutlineAssignment className="text-white text-lg lg:text-xl" />,
+    icon: <MdOutlineAssignment color="white" size="1.25rem" />,
     color: "from-blue-500 to-indigo-500",
   },
   {
     title: "Lesson Planning",
     desc: "Create tailored lesson plans aligned with student goals.",
-    icon: <MdMenuBook className="text-white text-lg lg:text-xl" />,
+    icon: <MdMenuBook color="white" size="1.25rem" />,
     color: "from-indigo-500 to-blue-600",
   },
   {
     title: "Progress & Compliance",
     desc: "Track progress and generate IDEA-compliant reports effortlessly.",
-    icon: <MdChecklistRtl className="text-white text-lg lg:text-xl" />,
+    icon: <MdChecklistRtl color="white" size="1.25rem" />,
     color: "from-blue-600 to-indigo-500",
   },
 ];
