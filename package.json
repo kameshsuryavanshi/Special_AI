@@ -47,7 +47,6 @@
     "esbuild": "^0.25.8",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
-<<<<<<< HEAD
     "typescript": "^5.8.3",
     "vite": "^7.0.6"
   },
@@ -56,8 +55,4 @@
   "keywords": [],
   "author": "",
   "license": "ISC"
-=======
-    "vite": "^7.0.6"
-  }
->>>>>>> f2969be9087fef7429f22ec7dcc466cdbb29318f
 }
